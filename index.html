@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyễn Hoàng Đức - Portfolio</title>
+  <meta name="description" content="Portfolio cá nhân của Nguyễn Hoàng Đức - Sinh viên Công nghệ Thông tin tại Đại học Giao thông Vận tải TP.HCM" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <!-- Theme Toggle Button -->
+  <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+    <span class="sun-icon">☀️</span>
+    <span class="moon-icon">🌙</span>
+  </button>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h1>NGUYEN HOANG DUC</h1>
+      </div>
+      
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Trang Chủ</a>
+        <a href="#about" class="nav-link">Giới Thiệu</a>
+        <a href="#skills" class="nav-link">Kỹ Năng</a>
+        <a href="#projects" class="nav-link">Dự Án</a>
+        <a href="#contact" class="nav-link">Liên Hệ</a>
+      </div>
+      
+      <div class="nav-toggle" id="nav-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-subtitle">XIN CHÀO</p>
+          <h1 class="hero-title">
+            Tôi là <span class="gradient-text">Nguyễn Hoàng Đức</span>
+            <br />
+            <span class="hero-subtitle-large">Sinh viên IT</span>
+          </h1>
+          <p class="hero-description">
+            Tôi là sinh viên Đại học Giao thông Vận tải TP.HCM, đang theo học chuyên ngành Công Nghệ Thông Tin. 
+            Tôi yêu thích việc học hỏi và không ngừng phát triển bản thân để chuẩn bị tốt cho công việc sau này.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Xem Dự Án</a>
+            <a href="#contact" class="btn btn-secondary">Liên Hệ</a>
+          </div>
+        </div>
+        <div class="hero-image">  
+  <div class="image-container">
+    <div class="image-bg"><img src="tải xuống.jpg" alt="Nguyễn Hoàng Đức" class="profile-img" /></div>
+    
+</div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Giới Thiệu</h2>
+        <p class="section-subtitle">Tìm hiểu thêm về hành trình học tập và phát triển của tôi</p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-cards">
+          <div class="card">
+            <h3 class="card-title">Thông Tin Cá Nhân</h3>
+            <div class="info-item">
+              <span class="info-icon"><ion-icon name="calendar-outline"></ion-icon></span>
+              <div>
+                <strong>Tuổi:</strong> 20 tuổi
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><ion-icon name="locate-outline"></ion-icon></span>
+              <div>
+                <strong>Địa chỉ:</strong> TP. Hồ Chí Minh
+              </div>
+            </div>
+            <div class="info-item">
+              <span class="info-icon"><ion-icon name="call-outline"></ion-icon></span>
+              <div>
+                <strong>Số điện thoại:</strong> (+84) 367120209
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Học Vấn</h3>
+            <h4>Đại học Giao thông Vận tải TP.HCM</h4>
+            <p class="text-muted">Chuyên ngành: Công nghệ Thông tin</p>
+            <p class="text-muted">Năm học: 2023 - 2027</p>
+            <div class="gpa">
+              <span class="star">⭐</span>
+              <span>GPA: 3.0/4.0</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Mục Tiêu Nghề Nghiệp</h3>
+            <p>
+              Trở thành một lập trình viên giàu kinh nghiệm, có khả năng phát triển 
+              các ứng dụng web hiện đại và đóng góp vào việc chuyển đổi số của doanh nghiệp Việt Nam.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Sở Thích</h3>
+            <div class="hobbies-grid">
+              <div class="hobby-item">
+                <span class="hobby-icon">💻</span>
+                <span>Lập trình</span>
+              </div>
+              <div class="hobby-item">
+                <span class="hobby-icon">📚</span>
+                <span>Học hỏi</span>
+              </div>
+              <div class="hobby-item">
+                <span class="hobby-icon">🚀</span>
+                <span>Dự án</span>
+              </div>
+              <div class="hobby-item">
+                <span class="hobby-icon">🌐</span>
+                <span>Open Source</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Kỹ Năng</h2>
+        <p class="section-subtitle">Các công nghệ và ngôn ngữ lập trình mà tôi đã học và sử dụng</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>HTML & CSS</h3>
+            <span class="skill-percentage">90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%; background: linear-gradient(90deg, #ff6b35, #f7931e);"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>JavaScript</h3>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%; background: linear-gradient(90deg, #f7df1e, #ffeb3b);"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>React</h3>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%; background: linear-gradient(90deg, #61dafb, #21a9c7);"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>Node.js</h3>
+            <span class="skill-percentage">75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 75%; background: linear-gradient(90deg, #68a063, #8cc84b);"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>Python</h3>
+            <span class="skill-percentage">70%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%; background: linear-gradient(90deg, #3776ab, #ffd43b);"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-header">
+            <h3>SQL</h3>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%; background: linear-gradient(90deg, #336791, #4f8cc9);"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Dự Án</h2>
+        <p class="section-subtitle">Các dự án mà tôi đã và đang phát triển</p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Website Thương Mại Điện Tử</h3>
+            <span class="project-status in-progress">Đang phát triển</span>
+          </div>
+          <p class="project-description">
+            Xây dựng platform e-commerce hoàn chỉnh với giao diện responsive, hệ thống thanh toán an toàn và quản lý inventory.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Html</span>
+            <span class="tech-tag">Node.js</span>
+            
+            <span class="tech-tag">JavaScript</span>
+          </div>
+          
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Ứng Dụng Quản Lý Task</h3>
+            <span class="project-status in-progress">Đang phát triển</span>
+          </div>
+          <p class="project-description">
+            Phát triển ứng dụng quản lý công việc với real-time collaboration, notifications và analytics dashboard.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">Firebase</span>
+            <span class="tech-tag">Material-UI</span>
+          </div>
+          
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>API Quản Lý Kho Hàng</h3>
+            <span class="project-status in-progress ">Đang phát triển</span>
+          </div>
+          <p class="project-description">
+            Thiết kế và triển khai RESTful API cho hệ thống quản lý warehouse với authentication và authorization.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Node.js</span>
+          <span class="tech-tag">Java</span>
+            <span class="tech-tag">PostgreSQL</span>
+          </div>
+          
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h3>Theo dõi sức khỏe trẻ <em></em></h3>
+            <span class="project-status completed">Đã hoàn thành</span>
+          </div>
+          <p class="project-description">
+            Child Growth Tracking System, Phần mềm theo dõi sự tăng trưởng của trẻ em.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Java</span>
+            <span class="tech-tag">SQL</span>
+            <span class="tech-tag">Html</span>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Liên Hệ</h2>
+        <p class="section-subtitle">Hãy liên hệ với tôi để thảo luận về cơ hội hợp tác</p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <div class="card">
+            <h3 class="card-title">Gửi Tin Nhắn</h3>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name">Họ và Tên</label>
+                <input type="text" id="name" name="name" required placeholder="Nhập họ và tên của bạn">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Nhập email của bạn">
+              </div>
+              <div class="form-group">
+                <label for="message">Tin Nhắn</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Nhập tin nhắn của bạn"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary full-width">Gửi Tin Nhắn</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="contact-info">
+          <div class="card">
+            <h3 class="card-title">Thông Tin Liên Hệ</h3>
+            <div class="contact-item">
+              <span class="contact-icon"><ion-icon name="mail-open-outline"></ion-icon></span>
+              <div>
+                <p><strong>Email</strong></p>
+                <p class="text-muted">hoangduc002004@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><ion-icon name="call-outline"></ion-icon></span>
+              <div>
+                <p><strong>Điện thoại</strong></p>
+                <p class="text-muted">(+84) 67120209</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><ion-icon name="locate-outline"></ion-icon></span>
+              <div>
+                <p><strong>Địa chỉ</strong></p>
+                <p class="text-muted">TP. Hồ Chí Minh, Việt Nam</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card-title">Mạng Xã Hội</h3>
+            <div class="social-grid">
+              <a href="https://www.facebook.com/hoang.uc.367041?locale=vi_VN" target="_blank" class="social-link facebook">
+                <span class="social-icon"><ion-icon name="logo-facebook"></ion-icon></span>
+                <span>Facebook</span>
+              </a>
+              <a href="https://www.instagram.com/hducc32/" target="_blank" class="social-link instagram">
+                <span class="social-icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                <span>Instagram</span>
+              </a>
+              <a href="https://github.com/duccop32" target="_blank" class="social-link github">
+                <span class="social-icon"><ion-icon name="logo-github"></ion-icon></span>
+                <span>GitHub</span>
+              </a>
+              <a href="https://www.tiktok.com/@hduc03z" target="_blank" class="social-link tiktok">
+                <span class="social-icon"><ion-icon name="logo-tiktok"></ion-icon></span>
+                <span>TikTok</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Nguyễn Hoàng Đức. Tất cả quyền được bảo lưu.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
