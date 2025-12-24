@@ -1,2 +1,0 @@
-# merryChristmasdiep
-thiep giang sinh
