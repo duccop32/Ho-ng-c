@@ -1,7 +1,7 @@
 var sound = new Howl({
-    urls: ['song/lastchrismas.mp3'],
-    loop: true
-  });
+        src: ['song/lastchrismas.mp3'],
+        loop: true
+    });
 
 function loading() {
     $('body').css('height', $(window).height());
@@ -194,7 +194,7 @@ $(document).ready(function() {
                     $(".message").typed({
                         strings: [
                         "<<< Merry Christmas >>>",
-                        "Chúc mọi người có một mùa giáng sinh an lành và ấm áp bên gia đình, người thân và bạn bè!!!",
+                        "Chúc các fen có một mùa giáng sinh an lành và ấm áp bên gia đình, người thân và bạn bè!!!",
                         ],
                         typeSpeed: 250,
                         startDelay: 500,
